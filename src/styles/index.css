@@ -10,3 +10,42 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.tlTop{
+    background: black;
+width: 20px;
+margin: auto;
+height: 50px;
+
+}
+
+.traffic-light{
+    background: black;
+  
+    display: inline-block;
+    padding: 5px;
+    border-radius: 15px;
+}
+.light{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}
+.green{
+    background: green;
+}
+.purple{
+    background: purple;
+}
+.selected{
+    box-shadow: 0px 0px 39px 12px #ffffff;
+}
+.btn{
+    margin:auto;
+}
